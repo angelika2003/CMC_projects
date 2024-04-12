@@ -1,0 +1,1 @@
+/home_edu/edu-cmc-sqi23/edu-cmc-sqi23-03/.lsbatch/1695970991.1054140: line 8: 79065 Segmentation fault      (core dumped) ./filtering

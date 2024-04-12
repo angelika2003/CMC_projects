@@ -1,0 +1,33 @@
+ANSWERS
+***Answer 17:
+/home/s02210423 - путь от корневого каталога до домашнего
+***Answer 18:
+include
+***Answer 19:
+сен 17 21:33
+755
+***Answer 20:
+38
+1 /home/s02210423 2 /home/s02210423 3
+***Answer 21:
+/etc/cloud
+***Answer 22:
+total 20
+-rw-r--r--. 1 s02210423 s02210423   386 сен 17 21:57 hosts
+-rw-r--r--. 1 s02210423 s02210423 12712 сен 17 21:57 passwd
+***Answer 23:
+total 20
+-rw-r--r--. 1 s02210423 s02210423   386 сен 17 21:57 hosts2
+-rw-r--r--. 1 s02210423 s02210423 12712 сен 17 21:57 passwd
+***Answer 24:
+UID=1059
+USER=s02210423
+***Answer 25:
+/bin/bash
+***Answer 26:
+”/etc:/home/s02210423/.local/bin:/home/s02210423/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/usr/include”
+***Answer 27:
+/usr/bin
+***Answer 28:
+2
+0

@@ -1,0 +1,3 @@
+Host:54.246.138.197
+Login:s02210423
+Password:aHDiRujJObqvv0rQ

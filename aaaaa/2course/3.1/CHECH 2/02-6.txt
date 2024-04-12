@@ -1,0 +1,55 @@
+ANSWERS
+***Answer 29:
+aplusb.c:1:6: error: return type of ‘main’ is not ‘int’ [-Werror=main]
+    1 | void main()
+      |      ^~~~
+aplusb.c: In function ‘main’:
+aplusb.c:4:1: error: implicit declaration of function ‘scanf’ [-Werror=implicit-function-declaration]
+    4 | scanf("%d%d", a, &b);
+      | ^~~~~
+aplusb.c:1:1: note: include ‘<stdio.h>’ or provide a declaration of ‘scanf’
+  +++ |+#include <stdio.h>
+    1 | void main()
+aplusb.c:4:1: error: incompatible implicit declaration of built-in function ‘scanf’ [-Werror=builtin-declaration-mismatch]
+    4 | scanf("%d%d", a, &b);
+      | ^~~~~
+aplusb.c:4:1: note: include ‘<stdio.h>’ or provide a declaration of ‘scanf’
+aplusb.c:4:9: error: format ‘%d’ expects argument of type ‘int *’, but argument 2 has type ‘int’ [-Werror=format=]
+    4 | scanf("%d%d", a, &b);
+      |        ~^     ~
+      |         |     |
+      |         int * int
+aplusb.c:5:3: error: statement with no effect [-Werror=unused-value]
+    5 | c == a + b;
+      | ~~^~~~~~~~
+aplusb.c:6:1: error: implicit declaration of function ‘printf’ [-Werror=implicit-function-declaration]
+    6 | printf("%d\n", c);
+      | ^~~~~~
+aplusb.c:6:1: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+aplusb.c:6:1: error: incompatible implicit declaration of built-in function ‘printf’ [-Werror=builtin-declaration-mismatch]
+aplusb.c:6:1: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+aplusb.c:6:1: error: expected declaration or statement at end of input
+cc1: all warnings being treated as errors
+***Answer 30:
+-rwxr-xr-x. 1 s02210423 s02210423 25000 сен 17 23:21 aplusb
+***Answer 31:
+2235423
+***Answer 32:
+./aplusb < 001.dat > 001.res
+***Answer 33:
+2248135
+***Answer 34:
+0m0,000s
+***Answer 35:
+594748360
+***Answer 36:
+на входе для grep:список процессов в длинном формате; выведет все строки, содержащие sh
+***Answer 37:
+ulimit -c - ограничение размера core файлов
+ulimit -c 0 - Запрещаем создавать core файлы
+***Answer 38:
+There are no sections in this file.
+***Answer 39:
+ls -l | grep ".conf" | awk '{print length,$0}' | sort -n | head -5 | sort -nk6
+***Answer 40:
+-

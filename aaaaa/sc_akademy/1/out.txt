@@ -1,0 +1,89 @@
+Sender: LSF System <lsfadmin@polus-c4-ib.bmc.hpc.cs.msu.ru>
+Subject: Job 1053887: <./a.out 1 1 100000> in cluster <MSUCluster> Exited
+
+Job <./a.out 1 1 100000> was submitted from host <polus-ib.bmc.hpc.cs.msu.ru> by user <edu-cmc-sqi23-03> in cluster <MSUCluster> at Thu Sep 28 20:20:55 2023
+Job was executed on host(s) <polus-c4-ib.bmc.hpc.cs.msu.ru>, in queue <short>, as user <edu-cmc-sqi23-03> in cluster <MSUCluster> at Thu Sep 28 20:20:55 2023
+</home_edu/edu-cmc-sqi23/edu-cmc-sqi23-03> was used as the home directory.
+</home_edu/edu-cmc-sqi23/edu-cmc-sqi23-03> was used as the working directory.
+Started at Thu Sep 28 20:20:55 2023
+Terminated at Thu Sep 28 20:20:57 2023
+Results reported at Thu Sep 28 20:20:57 2023
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./a.out 1 1 100000
+------------------------------------------------------------
+
+Exited with exit code 1.
+
+Resource usage summary:
+
+    CPU time :                                   0.34 sec.
+    Max Memory :                                 1 MB
+    Average Memory :                             1.00 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              1
+    Max Threads :                                1
+    Run time :                                   8 sec.
+    Turnaround time :                            2 sec.
+
+The output (if any) follows:
+
+CPU time: 0.000767547s
+ERROR [task_1.cu] in line 101: no error
+
+
+PS:
+
+Read file <err.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@polus-c4-ib.bmc.hpc.cs.msu.ru>
+Subject: Job 1053889: <./a.out 1 1 100000> in cluster <MSUCluster> Done
+
+Job <./a.out 1 1 100000> was submitted from host <polus-ib.bmc.hpc.cs.msu.ru> by user <edu-cmc-sqi23-03> in cluster <MSUCluster> at Thu Sep 28 20:22:07 2023
+Job was executed on host(s) <polus-c4-ib.bmc.hpc.cs.msu.ru>, in queue <short>, as user <edu-cmc-sqi23-03> in cluster <MSUCluster> at Thu Sep 28 20:22:08 2023
+</home_edu/edu-cmc-sqi23/edu-cmc-sqi23-03> was used as the home directory.
+</home_edu/edu-cmc-sqi23/edu-cmc-sqi23-03> was used as the working directory.
+Started at Thu Sep 28 20:22:08 2023
+Terminated at Thu Sep 28 20:22:10 2023
+Results reported at Thu Sep 28 20:22:10 2023
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./a.out 1 1 100000
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   0.35 sec.
+    Max Memory :                                 1 MB
+    Average Memory :                             1.00 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              1
+    Max Threads :                                1
+    Run time :                                   5 sec.
+    Turnaround time :                            3 sec.
+
+The output (if any) follows:
+
+CPU time: 0.000764631s
+GPU time: 3.1392e-05s
+GPU time with copy: 0.00017536s
+acceleration: 24.3575
+acceleration with copy: 4.36035
+matrices are equivalent
+
+PS:
+
+Read file <err.txt> for stderr output of this job.
+

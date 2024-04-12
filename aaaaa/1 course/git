@@ -1,0 +1,8 @@
+перейти на ветку: git checkout contest_1 (master)
+создать новую ветку: git checkout -b contest_номер
+
+git add 01.c
+git add .
+git commit -m '.'
+git push --set-upstream origin contest_номер
+

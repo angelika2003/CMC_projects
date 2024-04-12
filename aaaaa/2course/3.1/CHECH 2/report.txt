@@ -1,0 +1,45 @@
+ANSWERS
+***Answer 1:
+-f
+***Answer 2:
+write(1) - send a message to another user
+write(2) - write to a file descriptor
+***Answer 3:
+cat - concatenate files and print on the standard output;
+greb - print lines that match patterns;
+head - output the first part of files;
+yes - output a string repeatedly until killed
+***Answer 4:
+в алфавитном порядке 
+***Answer 5:
+директория, 'd', 'p', '-', дата последнего изменения
+***Answer 6:
+-lS
+***Answer 7:
+host.conf
+***Answer 8:
+-rw-r--r--. 1 root root    58 июл 20 07:53 /etc/networks
+-rw-r--r--. 1 root root 12712 сен 11 16:30 /etc/passwd
+***Answer 9:
+cat /etc/hosts > ~/file3
+cat /etc/passwd >> ~/file3
+cat /etc/fstab >> ~/file3
+***Answer 10:
+430
+rwxr-x---
+441
+rw-rw--w-
+***Answer 11:
+22
+rw-r-----
+***Answer 12:
+22
+***Answer 13:
+total 0
+***Answer 14:
+4
+***Answer 15:
+"def" не записалось в файл тк работа программы была прервана
+***Answer 16:
+file5 - 5 ("1234\n")
+file6 - 4 ("1234")

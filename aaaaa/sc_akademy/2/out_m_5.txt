@@ -1,0 +1,85 @@
+Sender: LSF System <lsfadmin@polus-c4-ib.bmc.hpc.cs.msu.ru>
+Subject: Job 1054140: <./filtering> in cluster <MSUCluster> Exited
+
+Job <./filtering> was submitted from host <polus-ib.bmc.hpc.cs.msu.ru> by user <edu-cmc-sqi23-03> in cluster <MSUCluster> at Fri Sep 29 10:03:11 2023
+Job was executed on host(s) <polus-c4-ib.bmc.hpc.cs.msu.ru>, in queue <short>, as user <edu-cmc-sqi23-03> in cluster <MSUCluster> at Fri Sep 29 10:03:12 2023
+</home_edu/edu-cmc-sqi23/edu-cmc-sqi23-03> was used as the home directory.
+</home_edu/edu-cmc-sqi23/edu-cmc-sqi23-03> was used as the working directory.
+Started at Fri Sep 29 10:03:12 2023
+Terminated at Fri Sep 29 10:03:13 2023
+Results reported at Fri Sep 29 10:03:13 2023
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./filtering
+------------------------------------------------------------
+
+Exited with exit code 139.
+
+Resource usage summary:
+
+    CPU time :                                   0.03 sec.
+    Max Memory :                                 1 MB
+    Average Memory :                             1.00 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              1
+    Max Threads :                                1
+    Run time :                                   2 sec.
+    Turnaround time :                            2 sec.
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <err_m_5.txt> for stderr output of this job.
+
+Sender: LSF System <lsfadmin@polus-c4-ib.bmc.hpc.cs.msu.ru>
+Subject: Job 1054141: <./filtering 5> in cluster <MSUCluster> Done
+
+Job <./filtering 5> was submitted from host <polus-ib.bmc.hpc.cs.msu.ru> by user <edu-cmc-sqi23-03> in cluster <MSUCluster> at Fri Sep 29 10:03:15 2023
+Job was executed on host(s) <polus-c4-ib.bmc.hpc.cs.msu.ru>, in queue <short>, as user <edu-cmc-sqi23-03> in cluster <MSUCluster> at Fri Sep 29 10:03:16 2023
+</home_edu/edu-cmc-sqi23/edu-cmc-sqi23-03> was used as the home directory.
+</home_edu/edu-cmc-sqi23/edu-cmc-sqi23-03> was used as the working directory.
+Started at Fri Sep 29 10:03:16 2023
+Terminated at Fri Sep 29 10:04:03 2023
+Results reported at Fri Sep 29 10:04:03 2023
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+./filtering 5
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   44.61 sec.
+    Max Memory :                                 386 MB
+    Average Memory :                             264.67 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              3
+    Max Threads :                                4
+    Run time :                                   48 sec.
+    Turnaround time :                            48 sec.
+
+The output (if any) follows:
+
+Our image resolution: 7680x4320
+CPU : 0.807868mp/s
+GPU : 1.41639e+06mp/s
+
+
+PS:
+
+Read file <err_m_5.txt> for stderr output of this job.
+
